@@ -10,7 +10,7 @@ const PORT = process.env.PORT;
 
 app.get('/api/products', (req, res) => {
     res.json([
-        { id: 1, name: "Áo sơ mi Shop Web", price: 250000 },
+        { id: 1, name: "Áo sơ mi Shop Web", price: 300000 },
         { id: 2, name: "Quần Jean Express", price: 350000 }
     ]);
 });
